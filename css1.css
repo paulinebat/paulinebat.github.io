@@ -381,15 +381,15 @@ input[type=submit]{
         font-size: 13px;
         margin: auto;
     }
+
     #news{
-        width: 241px;
         height: 175px;
         flex-shrink: 0;
         font-size: 13px;
         margin-top: 20px;
         justify-content: center;
-        padding-right: 185px;
-        margin-right: 10px;
+        padding-right: 190px;
+        margin-left: auto;
     }
 
     input,
@@ -424,37 +424,42 @@ input[type=submit]{
         text-align: center;
         margin-right: 30px;
     }
+
     #tout{
-        margin-top: 300px;
+        margin-top: 240px;
         float: right;
     }
+
     #adresse{
         width: 164px;
         height: 45px;
-        
         font-size: 12px;
     }
+
     #renseignement{
         width: 150px;
         height: 48px;
-        
         font-size: 12px;
         padding-left: 5px;
         padding-top: 10px;
     }
+
     #aside2{
-        width: 246px;
+        width: 236px;
         height: 32px;
-        margin-right: auto;
         display: flex;
         flex-direction: row;
+        margin-right: auto;
+        padding-left: 15px;
     }
+    
     #reseaux p{
         width: 129px;
         height: 17px;
         font-size: 13px;
+        text-align: center;
     }
-   
+
     #icones{
         width: 32px;
         height: 32px;
@@ -462,10 +467,12 @@ input[type=submit]{
         gap: 10px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        margin-left: 55px;
     }
 
     footer{
-        height: 400px;
+        height: 520px;
         gap: 15px;
     }
 }
