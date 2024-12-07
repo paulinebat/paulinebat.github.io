@@ -279,6 +279,7 @@ input[type=submit]{
         height: 214px;
         margin-bottom: 20px;
     }
+    
     #text{
         width: 246px;
         height: 25px;
@@ -300,6 +301,7 @@ input[type=submit]{
         flex-direction: row;
         justify-content: center;
     }
+
 
     #images{
         height: 400px;
@@ -406,6 +408,7 @@ input[type=submit]{
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-right: 30px;
     }
     #tout{
         margin-top: 300px;
@@ -426,18 +429,18 @@ input[type=submit]{
         padding-top: 10px;
     }
     #aside2{
-        width: 256px;
+        width: 246px;
         height: 32px;
-        
+        margin-right: auto;
         display: flex;
         flex-direction: row;
     }
     #reseaux p{
         width: 129px;
         height: 17px;
-    
         font-size: 13px;
     }
+   
     #icones{
         width: 32px;
         height: 32px;
