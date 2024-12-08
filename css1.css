@@ -280,7 +280,7 @@ header svg:hover nav{
         width: 281px;
         height: 228px;
         font-size: 30px;
-        margin-left: 90px;
+        margin-left: 115px;
     }
 
     #section1{
@@ -295,6 +295,7 @@ header svg:hover nav{
         width: 372px;
         height: 314px;
         margin-bottom: 20px;
+        margin: auto;
     }
     
     #text{
@@ -396,8 +397,8 @@ header svg:hover nav{
         font-size: 13px;
         margin-top: 20px;
         justify-content: center;
-        padding-right: 190px;
-        margin-left: auto;
+        padding-right: 150px;
+        margin-left: 75px;
     }
 
     input,
@@ -436,6 +437,8 @@ header svg:hover nav{
     #tout{
         margin-top: 240px;
         float: right;
+        justify-content: center;
+        margin-right: 80px;
     }
 
     #adresse{
@@ -493,12 +496,14 @@ header svg:hover nav{
         height: 24px;
         margin-bottom: 120px;
         visibility: visible;
+        margin: auto;
+        margin-left: 20px;
     }
 
     .logo img{
         width: 201px;
         height: 125px;
-        padding-left: 40px;
+        justify-content: center;
     }
 
     nav{
@@ -608,7 +613,7 @@ header svg:hover nav{
         justify-content: center;
     }
 
-    
+
 
     #text5{
         width: 205px;
@@ -654,7 +659,6 @@ header svg:hover nav{
     #aside1{
         width: 191px;
         height: 126px;
-        
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -662,8 +666,9 @@ header svg:hover nav{
     }
 
     #tout{
-        margin-top: 240px;
         float: right;
+        margin: auto;
+        margin-top: 80%;
     }
 
     #adresse{
