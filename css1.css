@@ -260,10 +260,56 @@ header svg:hover nav{
     header svg{
         width: 24px;
         height: 24px;
-        margin-bottom: 120px;
+        margin-bottom: 400px;
         visibility: visible;
-        position: absolute;
-        margin-left: 90px;
+        position:fixed;
+        top: 10px; 
+        right: 10px; 
+        z-index: 1000;
+        margin-left: 300px;
+    }
+
+    details summary {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: none;
+        list-style: none;
+        visibility: visible;
+      }
+      
+      details summary svg {
+        margin-right: 10px;
+        margin-bottom: 240px;
+      }
+      
+      .accordion-content {
+        padding-right: 50px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        position: fixed;
+        top: 5px; 
+        right: 5px;
+        z-index: 900;
+        visibility: visible;
+        align-items: center;
+      }
+
+      .accordion-content ul li{
+        display:grid; 
+        font-size: 16px;
+        padding-bottom:7px;
+        padding-top: 7px;
+      }
+
+      .accordion-content ul li a{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
     }
 
     .logo img{
