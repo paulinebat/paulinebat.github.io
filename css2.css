@@ -61,7 +61,6 @@ h1{
     font-weight: 300;
     line-height: normal;
     text-transform: uppercase;
-    text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section img{
@@ -169,3 +168,158 @@ hr{
     padding-top: 20px;
 }
 
+@media all and (max-width: 720px)
+{
+
+    .logo img{
+        width: 201px;
+        height: 125px;
+        padding-left: 40px;
+    }
+
+    nav{
+        visibility: hidden;
+    } 
+
+    #presentation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .p1{
+        text-align: center;
+        width: 320px;
+    }
+
+    #presentation img{
+        width: 110%;
+        justify-content: center;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info img{
+        width: 100%;
+    }
+
+    .jours{
+        justify-content: center;
+        margin: auto;
+    }
+
+    hr{
+        width: auto;
+    }
+
+    .bloc1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .renseignement p{
+        font-size: 80%;
+        justify-content: center;
+    }
+
+    .reseaux p{
+        font-size: 80%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #icones{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 320px)
+{
+
+    .logo img{
+        width: 201px;
+        height: 125px;
+        padding-left: 40px;
+    }
+
+    nav{
+        visibility: hidden;
+    } 
+
+    #presentation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .p1{
+        text-align: center;
+        width: 320px;
+    }
+
+    #presentation img{
+        width: 110%;
+        justify-content: center;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info img{
+        width: 100%;
+    }
+
+    .jours{
+        justify-content: center;
+        margin: auto;
+    }
+
+    hr{
+        width: auto;
+    }
+
+    .bloc1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .renseignement p{
+        font-size: 80%;
+        justify-content: center;
+    }
+
+    .reseaux p{
+        font-size: 80%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #icones{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+}
