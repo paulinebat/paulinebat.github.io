@@ -168,7 +168,7 @@ hr{
     padding-top: 20px;
 }
 
-@media all and (max-width: 720px)
+@media all and (max-width: 740px)
 {
 
     .logo img{
@@ -189,26 +189,22 @@ hr{
 
     .p1{
         text-align: center;
-        width: 320px;
+        width: 100% ;
     }
 
     #presentation img{
-        width: 110%;
-        justify-content: center;
+        width: 100%;
     }
 
     .info{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        gap: 20px;
     }
 
     .info img{
         width: 100%;
-    }
-
-    .jours{
-        justify-content: center;
-        margin: auto;
     }
 
     hr{
@@ -225,6 +221,7 @@ hr{
     .renseignement p{
         font-size: 80%;
         justify-content: center;
+        margin-left: 40px;
     }
 
     .reseaux p{
