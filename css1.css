@@ -258,9 +258,16 @@ input[type=submit]{
 }
 
 header svg:hover nav{
-    display: block;
+    display: none;
   }
 
+  details summary {
+    visibility: hidden;
+  }
+
+  .accordion-content{
+    visibility: hidden;
+  }
 
 @media all and (max-width: 740px)
 {
