@@ -80,12 +80,15 @@ hr{
     flex-direction: row;
     justify-content: center;
 }
+
 .sectionimage img, #images img, #images2 img, #images3 img {
     transition: transform 0.3s ease-in-out;
   }
 .sectionimage img:hover, #images img:hover, #images2 img:hover, #images3 img:hover {
     transform: scale(1.1);
   }
+
+
 #images img{
     margin: 22px;
 }
