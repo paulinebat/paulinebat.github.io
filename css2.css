@@ -32,6 +32,26 @@ nav ul li a{
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
+.underline { 
+        display: inline-block; 
+        position: relative; 
+    } 
+    .underline::after { 
+        content: ''; 
+        position: absolute; 
+        width: 100%; 
+        transform: scaleX(0); 
+        height: 2px; 
+        bottom: 0; 
+        left: 0; 
+        background-color: #DCB253; 
+        transform-origin: bottom right; 
+        transition: transform 0.25s ease-out; 
+    } 
+    .underline:hover::after { 
+        transform: scaleX(1); 
+        transform-origin: bottom left; 
+    }
 h1{
         text-align: center;
         padding-top: 50px;
