@@ -310,33 +310,4 @@ hr{
         width: auto;
     }
 
-    .bloc1{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
-
-    .renseignement p{
-        font-size: 80%;
-        justify-content: center;
-    }
-
-    .reseaux p{
-        font-size: 80%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    #icones{
-        width: 50%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .map{
-        width: 100%;
-    }
-
-}
+    
