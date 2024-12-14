@@ -180,7 +180,7 @@ hr{
 
 footer{
     background-color: #000;
-    height: 300px;
+    height: 320px;
 }
 
 #footer{
@@ -254,7 +254,6 @@ input[type=submit]{
     line-height: normal;
     margin-top: 20px;
     margin-right: 10px;
-    margin-left: 100px;
     background-color: #DCB253;
     padding-left: 30px;
     padding-right: 30px;
