@@ -28,15 +28,18 @@ nav ul li
 		padding-bottom:2%;
         padding-top: 2%;
     }
+
 nav ul li a{
         text-align: center;
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
+
 .underline { 
     display: inline-block; 
     position: relative; 
 } 
+
 .underline::after { 
     content: ''; 
     position: absolute; 
@@ -45,17 +48,18 @@ nav ul li a{
     height: 2px; 
     bottom: 0; 
     left: 0; 
-    background-color: #dcb255; 
+    background-color: #dcb254; 
     transform-origin: bottom right; 
     transition: transform 0.25s ease-out; 
 } 
+
 .underline:hover::after { 
     transform: scaleX(1); 
     transform-origin: bottom left; 
 }
 
 #bienvenue{
-    color: #DCB255;
+    color: #DCB254;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 43px;
@@ -66,6 +70,7 @@ nav ul li a{
     width: 450px;
     padding-top: 120px;
 }
+
 #section1{
     display: flex;
     flex-direction: row;
@@ -73,15 +78,17 @@ nav ul li a{
     padding: 12px 22px 5px 5px;
     gap: 54px;
 }
+
 #section1 img{
     width: 661px;
     height: 397px;
 }
+
 hr{
     width: 669.003px;
     height: 2px;
-    background: #DCB255;
-    border: #DCB255;
+    background: #DCB254;
+    border: #DCB254;
 }
 
 #text{
@@ -104,6 +111,7 @@ hr{
 .sectionimage img, #images img, #images2 img, #images3 img {
     transition: transform 0.3s ease-in-out;
   }
+
 .sectionimage img:hover, #images img:hover, #images2 img:hover, #images3 img:hover {
     transform: scale(1.1);
   }
@@ -161,7 +169,7 @@ hr{
     line-height: normal;
     border-radius: var(--Corner-Small, 8px);
     border: 1px solid #000;
-    background: #DCB255;
+    background: #DCB254;
     padding: 10px;
     margin-left: 225px;
     margin-right: 225px;
@@ -191,7 +199,7 @@ footer{
 }
 
 #news{
-    background-color: #DCB255;
+    background-color: #DCB254;
     margin-left: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -238,7 +246,7 @@ input[type=submit]{
 }
 #aside1{
     display: flex;
-    background-color: #DCB255;
+    background-color: #DCB254;
     padding-left: 30px;
     padding-right: 5px;
     border-radius: 10px;
@@ -254,7 +262,7 @@ input[type=submit]{
     line-height: normal;
     margin-top: 20px;
     margin-right: 10px;
-    background-color: #DCB255;
+    background-color: #DCB254;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
@@ -288,7 +296,7 @@ header svg:hover nav{
     visibility: hidden;
   }
 
-@media all and (max-width: 740px)
+@media all and (max-width: 768px)
 {
     header svg{
         width: 24px;
