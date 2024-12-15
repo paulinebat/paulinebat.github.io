@@ -7,9 +7,19 @@ body {
     height: 150px;
     margin-top: 10px;
 }
+
 header svg{
     visibility: hidden;
 }    
+
+  details summary {
+    visibility: hidden;
+  }
+
+  .accordion-content{
+    visibility: hidden;
+  }
+
 #nav{
     font-size: 18px;
     font-style: normal;
@@ -55,7 +65,7 @@ nav ul li a{
         transform: scaleX(1); 
         transform-origin: bottom left; 
     }
-    
+
 h1{
         text-align: center;
         padding-top: 50px;
@@ -195,7 +205,12 @@ hr{
     padding-top: 20px;
 }
 
-@media all and (max-width: 740px)
+header svg:hover nav{
+    display: none;
+  }
+
+
+@media all and (max-width: 768px)
 {
 
     .logo img{
@@ -328,14 +343,76 @@ hr{
 {
 
     .logo img{
-        width: 201px;
-        height: 125px;
-        padding-left: 40px;
+        width: 181px;
+        height: 105px;
+        margin-right: 30px;
     }
 
+    header svg{
+        width: 24px;
+        height: 24px;
+        margin-bottom: 400px;
+        visibility: visible;
+        position: absolute;
+        top: 10px; 
+        right: 10px; 
+        z-index: 1000;
+        margin-left: 100px;
+    }
+    
+    details summary {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: none;
+        list-style: none;
+        visibility: visible;
+      }
+      
+      details summary svg {
+        margin-right: 10px;
+        margin-bottom: 240px;
+      }
+      
+      .accordion-content {
+        padding-right: 50px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        position: fixed;
+        top: 5px; 
+        right: 5px;
+        z-index: 900;
+        visibility: visible;
+        align-items: center;
+      }
+
+      .accordion-content ul li{
+        display:grid; 
+        font-size: 16px;
+        padding-bottom:7px;
+        padding-top: 7px;
+      }
+
+      .accordion-content ul li a{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
     nav{
         visibility: hidden;
     } 
+
+    h1{
+        font-size: 220%;
+    }
+
+    .text1{
+        font-size: 200%;
+    }
 
     #presentation{
         display: flex;
@@ -345,30 +422,38 @@ hr{
 
     .p1{
         text-align: center;
-        width: 320px;
+        font-size: 100% ;
     }
 
     #presentation img{
-        width: 110%;
-        justify-content: center;
+        width: 100%;
     }
 
     .info{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        gap: 20px;
     }
 
     .info img{
         width: 100%;
     }
 
+    .ouverture{
+        font-size: 140%;
+    }
+
     .jours{
-        justify-content: center;
-        margin: auto;
+        font-size: 80%;
     }
 
     hr{
         width: auto;
+    }
+
+    .text3{
+        font-size: 140%;
     }
 
     .bloc1{
@@ -376,11 +461,13 @@ hr{
         justify-content: center;
         text-align: center;
         margin: auto;
+        font-size: 100%;
     }
 
     .renseignement p{
         font-size: 80%;
         justify-content: center;
+
     }
 
     .reseaux p{
@@ -390,10 +477,14 @@ hr{
     }
 
     #icones{
-        width: 50%;
+        font-size: 200%;
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .text4{
+        font-size: 100%;
     }
 
     .map{
